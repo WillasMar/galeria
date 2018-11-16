@@ -1,0 +1,66 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.slideShow{
+	width: 700px;
+	height: 300px;
+	background-color: #CCC;
+	margin: auto;
+	margin-top: 10px;
+	overflow: hidden;
+}
+.slideArea{
+	height: 300px;
+	transition: 2s;
+}
+.slide{
+	height: 300px;
+	float: left;
+}
+.slide1{
+	background-image: url("foto1.jpg"); 
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.slide2{
+	background-image: url("foto2.jpg"); 
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.slide3{
+	background-image: url("foto3.jpg"); 
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.slide4{
+	background-image: url("foto4.jpg"); 
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.passar{
+	width: 50px;
+	height: 70px;	
+	position: absolute;
+	background: rgba(255, 255 ,255, 0.3);
+	margin-top: 115px;
+
+	text-align: center;
+	line-height: 70px;
+	font-size: 60px;
+}
+.passar:hover{
+	background: rgba(255, 255 ,255, 0.5);
+	cursor: pointer;
+}
+.anterior{
+	
+}
+.proximo{
+	margin-left: 650px;
+}
